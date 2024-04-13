@@ -27,6 +27,11 @@ class MainPlaylistViewController: UIViewController {
         
         contentView.tableView.dataSource = self
         contentView.tableView.delegate = self
+        customizeTableView()
+    }
+    private func customizeTableView() {
+        contentView.tableView.separatorColor = .systemBlue
+        contentView.tableView.separatorInset = .init(top: 0, left: 10, bottom: 0, right: 10)
     }
 }
 
@@ -54,8 +59,14 @@ extension MainPlaylistViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         
-        cell.textLabel?.text = model.items[indexPath.row].songTitle
-        
+        let song = model.items[indexPath.row]
+        cell.textLabel?.text = "Track: \(song.songTitle)"
+        cell.textLabel?.textColor = .systemBlue
+        cell.textLabel?.font = .systemFont(ofSize: 15, weight: .semibold)
+        cell.detailTextLabel?.text = "\tAlbum: \(song.albumTitle),\n\tAuthor: \(song.author), \n\tGenre: \(song.genre)"
+        cell.detailTextLabel?.numberOfLines = 0
+        cell.detailTextLabel?.textColor = .black
+        cell.detailTextLabel?.font = .systemFont(ofSize: 13, weight: .regular)
         return cell
     }
 }
