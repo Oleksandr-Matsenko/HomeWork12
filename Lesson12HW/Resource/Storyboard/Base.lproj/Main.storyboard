@@ -352,10 +352,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="He3-Cv-6eq" customClass="PlaylistByGenreView" customModule="Lesson12HW" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
+                                <rect key="frame" x="0.0" y="60" width="393" height="758"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="XXi-fZ-Vt2">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="758"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainPlaylistCell" textLabel="IAo-PK-N7A" detailTextLabel="qDg-IC-OeB" style="IBUITableViewCellStyleSubtitle" id="XN5-oz-uP0">
                                                 <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.666667938232422"/>
@@ -399,9 +399,9 @@
                         <viewLayoutGuide key="safeArea" id="eCu-RA-J3C"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="He3-Cv-6eq" firstAttribute="top" secondItem="Enu-gn-lFk" secondAttribute="top" id="GSm-re-Xxq"/>
                             <constraint firstItem="He3-Cv-6eq" firstAttribute="leading" secondItem="eCu-RA-J3C" secondAttribute="leading" id="IEA-hQ-QYH"/>
                             <constraint firstItem="eCu-RA-J3C" firstAttribute="bottom" secondItem="He3-Cv-6eq" secondAttribute="bottom" id="jcB-sB-jgZ"/>
+                            <constraint firstItem="He3-Cv-6eq" firstAttribute="top" secondItem="Enu-gn-lFk" secondAttribute="top" constant="60" id="lbe-NT-qyP"/>
                             <constraint firstItem="He3-Cv-6eq" firstAttribute="trailing" secondItem="eCu-RA-J3C" secondAttribute="trailing" id="tum-WC-8ER"/>
                         </constraints>
                     </view>
@@ -422,17 +422,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oad-nZ-CZW" customClass="PlaylistModesView" customModule="Lesson12HW" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
+                                <rect key="frame" x="0.0" y="105" width="393" height="713"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9gU-zX-Vq8">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9gU-zX-Vq8">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="713"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainPlaylistCell" textLabel="c2F-to-29k" detailTextLabel="Kon-bs-TGg" style="IBUITableViewCellStyleSubtitle" id="AkY-Kq-ag3">
-                                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                                <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.666667938232422"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AkY-Kq-ag3" id="8FX-x5-Yed">
-                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="353" height="43.666667938232422"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c2F-to-29k">
@@ -455,7 +454,7 @@
                                         </prototypes>
                                     </tableView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="9gU-zX-Vq8" secondAttribute="bottom" id="8xf-57-PnH"/>
                                     <constraint firstItem="9gU-zX-Vq8" firstAttribute="top" secondItem="Oad-nZ-CZW" secondAttribute="top" id="dee-30-Uyz"/>
@@ -466,18 +465,30 @@
                                     <outlet property="tableView" destination="9gU-zX-Vq8" id="RSP-W5-JhY"/>
                                 </connections>
                             </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HlX-Do-44Q">
+                                <rect key="frame" x="20" y="64" width="182" height="32"/>
+                                <segments>
+                                    <segment title="All"/>
+                                    <segment title="Genre"/>
+                                    <segment title="Author"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="quj-JR-YSt"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.97944611310958862" green="0.96197301149368286" blue="0.94060176610946655" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Oad-nZ-CZW" firstAttribute="leading" secondItem="quj-JR-YSt" secondAttribute="leading" id="M1D-yJ-FzX"/>
                             <constraint firstItem="Oad-nZ-CZW" firstAttribute="trailing" secondItem="quj-JR-YSt" secondAttribute="trailing" id="SnV-0C-6jW"/>
+                            <constraint firstItem="HlX-Do-44Q" firstAttribute="top" secondItem="quj-JR-YSt" secondAttribute="top" constant="5" id="U4J-l9-pk2"/>
                             <constraint firstItem="quj-JR-YSt" firstAttribute="bottom" secondItem="Oad-nZ-CZW" secondAttribute="bottom" id="Vka-Fx-V7h"/>
-                            <constraint firstItem="Oad-nZ-CZW" firstAttribute="top" secondItem="VDH-Mp-BUq" secondAttribute="top" id="Vs4-id-WPD"/>
+                            <constraint firstItem="HlX-Do-44Q" firstAttribute="leading" secondItem="quj-JR-YSt" secondAttribute="leading" constant="20" id="e47-C6-wDE"/>
+                            <constraint firstItem="quj-JR-YSt" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HlX-Do-44Q" secondAttribute="trailing" symbolic="YES" id="oxN-cd-Ojq"/>
+                            <constraint firstItem="Oad-nZ-CZW" firstAttribute="top" secondItem="HlX-Do-44Q" secondAttribute="bottom" constant="10" id="uwC-jv-lHa"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="contentView" destination="Oad-nZ-CZW" id="WdF-fj-Sx5"/>
+                        <outlet property="segmentedControl" destination="HlX-Do-44Q" id="nz9-Qp-jM7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lc4-Kf-CDW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
