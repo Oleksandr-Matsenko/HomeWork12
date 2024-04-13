@@ -454,7 +454,6 @@
                                         </prototypes>
                                     </tableView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="9gU-zX-Vq8" secondAttribute="bottom" id="8xf-57-PnH"/>
                                     <constraint firstItem="9gU-zX-Vq8" firstAttribute="top" secondItem="Oad-nZ-CZW" secondAttribute="top" id="dee-30-Uyz"/>
@@ -475,7 +474,7 @@
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="quj-JR-YSt"/>
-                        <color key="backgroundColor" red="0.97944611310958862" green="0.96197301149368286" blue="0.94060176610946655" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Oad-nZ-CZW" firstAttribute="leading" secondItem="quj-JR-YSt" secondAttribute="leading" id="M1D-yJ-FzX"/>
                             <constraint firstItem="Oad-nZ-CZW" firstAttribute="trailing" secondItem="quj-JR-YSt" secondAttribute="trailing" id="SnV-0C-6jW"/>
