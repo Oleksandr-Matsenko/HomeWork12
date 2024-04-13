@@ -1,0 +1,328 @@
+{
+   "songs": [
+        {
+            "author": "Led Zeppelin",
+            "song_title": "Stairway to Heaven",
+            "album_title": "Led Zeppelin IV",
+            "genre": "Rock"
+        },
+        {
+            "author": "Queen",
+            "song_title": "Bohemian Rhapsody",
+            "album_title": "A Night at the Opera",
+            "genre": "Rock"
+        },
+        {
+            "author": "Michael Jackson",
+            "song_title": "Billie Jean",
+            "album_title": "Thriller",
+            "genre": "Pop"
+        },
+        {
+            "author": "The Beatles",
+            "song_title": "Hey Jude",
+            "album_title": "The Beatles (White Album)",
+            "genre": "Rock"
+        },
+        {
+            "author": "Bob Dylan",
+            "song_title": "Like a Rolling Stone",
+            "album_title": "Highway 61 Revisited",
+            "genre": "Rock"
+        },
+        {
+            "author": "Pink Floyd",
+            "song_title": "Comfortably Numb",
+            "album_title": "The Wall",
+            "genre": "Rock"
+        },
+        {
+            "author": "Nirvana",
+            "song_title": "Smells Like Teen Spirit",
+            "album_title": "Nevermind",
+            "genre": "Grunge"
+        },
+        {
+            "author": "Elvis Presley",
+            "song_title": "Can't Help Falling in Love",
+            "album_title": "Blue Hawaii",
+            "genre": "Rock and Roll"
+        },
+        {
+            "author": "Prince",
+            "song_title": "Purple Rain",
+            "album_title": "Purple Rain",
+            "genre": "Pop"
+        },
+        {
+            "author": "The Rolling Stones",
+            "song_title": "Paint It Black",
+            "album_title": "Aftermath",
+            "genre": "Rock"
+        },
+        {
+            "author": "David Bowie",
+            "song_title": "Space Oddity",
+            "album_title": "Space Oddity",
+            "genre": "Rock"
+        },
+        {
+            "author": "The Eagles",
+            "song_title": "Hotel California",
+            "album_title": "Hotel California",
+            "genre": "Rock"
+        },
+        {
+            "author": "John Lennon",
+            "song_title": "Imagine",
+            "album_title": "Imagine",
+            "genre": "Rock"
+        },
+        {
+            "author": "Johnny Cash",
+            "song_title": "Hurt",
+            "album_title": "American IV: The Man Comes Around",
+            "genre": "Country"
+        },
+        {
+            "author": "Metallica",
+            "song_title": "Enter Sandman",
+            "album_title": "Metallica",
+            "genre": "Metal"
+        },
+        {
+            "author": "U2",
+            "song_title": "With or Without You",
+            "album_title": "The Joshua Tree",
+            "genre": "Rock"
+        },
+        {
+            "author": "Jimi Hendrix",
+            "song_title": "All Along the Watchtower",
+            "album_title": "Electric Ladyland",
+            "genre": "Rock"
+        },
+        {
+            "author": "The Beach Boys",
+            "song_title": "Good Vibrations",
+            "album_title": "Smiley Smile",
+            "genre": "Pop"
+        },
+        {
+            "author": "Guns N' Roses",
+            "song_title": "Sweet Child o' Mine",
+            "album_title": "Appetite for Destruction",
+            "genre": "Rock"
+        },
+        {
+            "author": "Radiohead",
+            "song_title": "Paranoid Android",
+            "album_title": "OK Computer",
+            "genre": "Alternative Rock"
+        },
+        {
+            "author": "Aretha Franklin",
+            "song_title": "Respect",
+            "album_title": "I Never Loved a Man the Way I Love You",
+            "genre": "Soul"
+        },
+        {
+            "author": "Bruce Springsteen",
+            "song_title": "Born to Run",
+            "album_title": "Born to Run",
+            "genre": "Rock"
+        },
+        {
+            "author": "AC/DC",
+            "song_title": "Back in Black",
+            "album_title": "Back in Black",
+            "genre": "Rock"
+        },
+        {
+            "author": "The Who",
+            "song_title": "Baba O'Riley",
+            "album_title": "Who's Next",
+            "genre": "Rock"
+        },
+        {
+            "author": "Fleetwood Mac",
+            "song_title": "Go Your Own Way",
+            "album_title": "Rumours",
+            "genre": "Rock"
+        },
+        {
+            "author": "The Clash",
+            "song_title": "London Calling",
+            "album_title": "London Calling",
+            "genre": "Punk Rock"
+        },
+        {
+            "author": "Queen",
+            "song_title": "Another One Bites the Dust",
+            "album_title": "The Game",
+            "genre": "Rock"
+        },
+        {
+            "author": "Johnny Cash",
+            "song_title": "Ring of Fire",
+            "album_title": "Ring of Fire: The Best of Johnny Cash",
+            "genre": "Country"
+        },
+        {
+            "author": "Led Zeppelin",
+            "song_title": "Whole Lotta Love",
+            "album_title": "Led Zeppelin II",
+            "genre": "Rock"
+        },
+        {
+            "author": "Pink Floyd",
+            "song_title": "Wish You Were Here",
+            "album_title": "Wish You Were Here",
+            "genre": "Rock"
+        },
+        {
+            "author": "Elton John",
+            "song_title": "Rocket Man",
+            "album_title": "Honky Château",
+            "genre": "Pop"
+        },
+        {
+            "author": "The Beatles",
+            "song_title": "Let It Be",
+            "album_title": "Let It Be",
+            "genre": "Rock"
+        },
+        {
+            "author": "Bob Marley",
+            "song_title": "No Woman, No Cry",
+            "album_title": "Natty Dread",
+            "genre": "Reggae"
+        },
+        {
+            "author": "Queen",
+            "song_title": "We Will Rock You",
+            "album_title": "News of the World",
+            "genre": "Rock"
+        },
+        {
+            "author": "The Police",
+            "song_title": "Every Breath You Take",
+            "album_title": "Synchronicity",
+            "genre": "New Wave"
+        },
+        {
+            "author": "The Doors",
+            "song_title": "Light My Fire",
+            "album_title": "The Doors",
+            "genre": "Rock"
+        },
+        {
+            "author": "Stevie Wonder",
+            "song_title": "Superstition",
+            "album_title": "Talking Book",
+            "genre": "Soul"
+        },
+        {
+            "author": "Led Zeppelin",
+            "song_title": "Kashmir",
+            "album_title": "Physical Graffiti",
+            "genre": "Rock"
+        },
+        {
+            "author": "Bob Dylan",
+            "song_title": "Knockin' on Heaven's Door",
+            "album_title": "Pat Garrett & Billy the Kid",
+            "genre": "Folk Rock"
+        },
+        {
+            "author": "The Rolling Stones",
+            "song_title": "(I Can't Get No) Satisfaction",
+            "album_title": "Out of Our Heads",
+            "genre": "Rock"
+        },
+        {
+            "author": "Radiohead",
+            "song_title": "Creep",
+            "album_title": "Pablo Honey",
+            "genre": "Alternative Rock"
+        },
+        {
+            "author": "Johnny Cash",
+            "song_title": "I Walk the Line",
+            "album_title": "With His Hot and Blue Guitar!",
+            "genre": "Country"
+        },
+        {
+            "author": "Pink Floyd",
+            "song_title": "Another Brick in the Wall, Part 2",
+            "album_title": "The Wall",
+            "genre": "Rock"
+        },
+        {
+            "author": "The Beatles",
+            "song_title": "Yesterday",
+            "album_title": "Help!",
+            "genre": "Rock"
+        },
+        {
+            "author": "David Bowie",
+            "song_title": "Heroes",
+            "album_title": "Heroes",
+            "genre": "Rock"
+        },
+        {
+            "author": "Prince",
+            "song_title": "When Doves Cry",
+            "album_title": "Purple Rain",
+            "genre": "Pop"
+        },
+        {
+            "author": "Johnny Cash",
+            "song_title": "Folsom Prison Blues",
+            "album_title": "With His Hot and Blue Guitar!",
+            "genre": "Country"
+        },
+        {
+            "author": "The Rolling Stones",
+            "song_title": "Sympathy for the Devil",
+            "album_title": "Beggars Banquet",
+            "genre": "Rock"
+        },
+        {
+            "author": "Elvis Presley",
+            "song_title": "Jailhouse Rock",
+            "album_title": "Elvis' Golden Records",
+            "genre": "Rock and Roll"
+        },
+        {
+            "author": "Led Zeppelin",
+            "song_title": "Black Dog",
+            "album_title": "Led Zeppelin IV",
+            "genre": "Rock"
+        },
+        {
+            "author": "The Who",
+            "song_title": "My Generation",
+            "album_title": "My Generation",
+            "genre": "Rock"
+        },
+        {
+            "author": "The Beach Boys",
+            "song_title": "Wouldn't It Be Nice",
+            "album_title": "Pet Sounds",
+            "genre": "Pop"
+        },
+        {
+            "author": "Bob Dylan",
+            "song_title": "The Times They Are a-Changin'",
+            "album_title": "The Times They Are a-Changin'",
+            "genre": "Folk"
+        },
+        {
+            "author": "The Beatles",
+            "song_title": "Twist and Shout",
+            "album_title": "Please Please Me",
+            "genre": "Rock"
+        }
+    ]
+}
