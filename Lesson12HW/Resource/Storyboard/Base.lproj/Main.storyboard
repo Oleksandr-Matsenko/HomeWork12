@@ -422,10 +422,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oad-nZ-CZW" customClass="PlaylistModesView" customModule="Lesson12HW" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="105" width="393" height="713"/>
+                                <rect key="frame" x="0.0" y="95" width="393" height="723"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9gU-zX-Vq8">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="713"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="723"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainPlaylistCell" textLabel="c2F-to-29k" detailTextLabel="Kon-bs-TGg" style="IBUITableViewCellStyleSubtitle" id="AkY-Kq-ag3">
                                                 <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.666667938232422"/>
@@ -482,7 +482,7 @@
                             <constraint firstItem="quj-JR-YSt" firstAttribute="bottom" secondItem="Oad-nZ-CZW" secondAttribute="bottom" id="Vka-Fx-V7h"/>
                             <constraint firstItem="HlX-Do-44Q" firstAttribute="leading" secondItem="quj-JR-YSt" secondAttribute="leading" constant="20" id="e47-C6-wDE"/>
                             <constraint firstItem="quj-JR-YSt" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HlX-Do-44Q" secondAttribute="trailing" symbolic="YES" id="oxN-cd-Ojq"/>
-                            <constraint firstItem="Oad-nZ-CZW" firstAttribute="top" secondItem="HlX-Do-44Q" secondAttribute="bottom" constant="10" id="uwC-jv-lHa"/>
+                            <constraint firstItem="Oad-nZ-CZW" firstAttribute="top" secondItem="HlX-Do-44Q" secondAttribute="bottom" id="uwC-jv-lHa"/>
                         </constraints>
                     </view>
                     <connections>
